@@ -11,6 +11,7 @@ ps = PorterStemmer()
 def cleaned_text(text):
     text = text.lower()
     nltk.download('punkt')
+    nltk.download('stopwords')
     text = nltk.word_tokenize(text)
     y = []
     for words in text:
