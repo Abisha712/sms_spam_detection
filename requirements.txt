@@ -2,4 +2,3 @@ streamlit
 nltk
 scikit-learn
 sklearn
-nltk.download('punkt')
